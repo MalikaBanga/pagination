@@ -43,7 +43,6 @@ Script:
 
 ### Options
 
-
 Options | Type | Default | Description
 ------ | ---- | ------- | -----------
 perPage | number | 10 | Number of items per page.
