@@ -49,8 +49,8 @@ perPage | number | 10 | Number of items per page.
 prevText | string | &#10092; | Previous arrow text/icon.
 nextText | string | &#10093; | Next arrow text/icon.
 showFirstLast | boolean | false | Show First & Last page arrows.
-firstText | string | &#10092;&#10092; | First page arrow text/icon.
-lastText | string | &#10093;&#10093; | Last page arrow text/icon.
+firstText | string | &#10092;&#10092; | First page arrow/text/icon.
+lastText | string | &#10093;&#10093; | Last page arrow/text/icon.
 
 
 #### Pagination Example
