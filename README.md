@@ -13,6 +13,7 @@ Add this in the `<head>` tag:
 
 Before closing `<body>` tag add:
 ```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="<path_to_folder>/js/jQueryPagination.min.js"></script>
 ```
 
@@ -34,11 +35,11 @@ Before closing `<body>` tag add:
 </ul>
 ```
 Script:
- ```
+```
 <script>
 	jQuery('#paginate').mbPagination();
 </script>
-
+```
 
 ### Options
 
