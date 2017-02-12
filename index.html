@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagination</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="container">
+	<ul class="list-group" id="paginate">
+		  <li class="list-group-item">Cras justo odio</li>
+		  <li class="list-group-item">Dapibus ac facilisis in</li>
+		  <li class="list-group-item">Morbi leo risus</li>
+		  <li class="list-group-item">Porta ac consectetur ac</li>
+		  <li class="list-group-item">Vestibulum at eros</li>
+
+		  <li class="list-group-item">Cras justo odio 1</li>
+		  <li class="list-group-item">Dapibus ac facilisis in 1</li>
+		  <li class="list-group-item">Morbi leo risus 1</li>
+		  <li class="list-group-item">Porta ac consectetur ac 1</li>
+		  <li class="list-group-item">Vestibulum at eros 1</li>
+
+		  <li class="list-group-item">Cras justo odio 2</li>
+		  <li class="list-group-item">Dapibus ac facilisis in 2</li>
+		  <li class="list-group-item">Morbi leo risus 2</li>
+		  <li class="list-group-item">Porta ac consectetur ac 2</li>
+		  <li class="list-group-item">Vestibulum at eros 2</li>
+
+		  <li class="list-group-item">Cras justo odio 3</li>
+		  <li class="list-group-item">Dapibus ac facilisis in 3</li>
+		  <li class="list-group-item">Morbi leo risus 3</li>
+		  <li class="list-group-item">Porta ac consectetur ac 3</li>
+		  <li class="list-group-item">Vestibulum at eros 3</li>
+
+		  <li class="list-group-item">Cras justo odio 4</li>
+		  <li class="list-group-item">Dapibus ac facilisis in 4</li>
+		  <li class="list-group-item">Morbi leo risus 4</li>
+		  <li class="list-group-item">Porta ac consectetur ac 4</li>
+		  <li class="list-group-item">Vestibulum at eros 4</li>
+
+		  <li class="list-group-item">Cras justo odio 5</li>
+		  <li class="list-group-item">Dapibus ac facilisis in 5</li>
+		  <li class="list-group-item">Morbi leo risus 5</li>
+		  <li class="list-group-item">Porta ac consectetur ac 5</li>
+		  <li class="list-group-item">Vestibulum at eros 5</li>
+	</ul>
+
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/script.min.js"></script>
+<script>
+	jQuery('#paginate').mbPagination({
+		showFirstLast: true,
+		perPage: 5,
+	});
+</script>
+</body>
+</html>
