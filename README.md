@@ -54,6 +54,7 @@ lastText | string | &#10093;&#10093; | Last page arrow/text/icon.
 
 
 #### Pagination Example
+![Pagination](https://raw.githubusercontent.com/MalikaBanga/pagination/screenshots/pagination.jpg)
 ```
 <script>
 	jQuery('#paginate').mbPagination({
