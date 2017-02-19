@@ -63,3 +63,6 @@ lastText | string | &#10093;&#10093; | Last page arrow/text/icon.
 	});
 </script>
 ```
+
+## Live Demo
+https://malikabanga.github.io/work/pagination/
