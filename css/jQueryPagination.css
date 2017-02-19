@@ -15,6 +15,9 @@
 	display: inline-block;
     border: 1px solid #eee;
 }
+.mb-pagination li:not(:last-child) {
+    border-right: 0;
+}
 .mb-pagination li > *{
 	padding:3px 10px;
     display: block;	
@@ -22,8 +25,12 @@
 }
 .mb-pagination span,
 .mb-pagination a{
-	text-decoration: none;
-    line-height: 1.3;
+    position: relative;
+    padding: 4px 12px;
+    line-height: 1.43;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
 }
 .mb-pagination a:hover{
 	background: #eee;
